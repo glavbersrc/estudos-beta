@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/home.module.css';
 
 export default function Home() {
   return (
@@ -12,9 +12,9 @@ export default function Home() {
       </Head>
       <header className={styles.header}>
         <div className={styles.headerContent}>
-          <Image src="/roman-eagle.png" alt="Roman eagle" className={styles.eagle} width={80} height={80} />
-          <h1>Estudos Constantinianos</h1>
-          <Image src="/roman-eagle.png" alt="Roman eagle" className={styles.eagle2} width={80} height={80} />
+          <Image src="https://wmghedelx4.ufs.sh/f/7HHrZ60cb4rNfkBdKOrBjNFWPSDCd3wUTEi9Xa827hZObsVI" alt="Roman eagle" className={styles.eagle} width={80} height={80} />
+          <h1 className={styles.title}>Estudos Constantinianos</h1>
+          <Image src="https://wmghedelx4.ufs.sh/f/7HHrZ60cb4rNfkBdKOrBjNFWPSDCd3wUTEi9Xa827hZObsVI" alt="Roman eagle" className={styles.eagle2} width={80} height={80} />
         </div>
         <nav>
           <ul className={styles.navList}>

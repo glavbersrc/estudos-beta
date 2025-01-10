@@ -1,0 +1,95 @@
+.bodyContainer {
+    font-family: "TrajanPro-Regular";
+    margin: 0;
+    padding: 0;
+    background-color: #800000; /* Roman Red */
+    color: black;
+}
+
+@font-face {
+    font-family: "TrajanPro-Regular";
+    src: url("https://db.onlinewebfonts.com/t/c07d5c6528b6cc0eac08afd7a3199657.eot");
+    src: url("https://db.onlinewebfonts.com/t/c07d5c6528b6cc0eac08afd7a3199657.eot?#iefix") format("embedded-opentype"),
+         url("https://db.onlinewebfonts.com/t/c07d5c6528b6cc0eac08afd7a3199657.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/c07d5c6528b6cc0eac08afd7a3199657.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/c07d5c6528b6cc0eac08afd7a3199657.ttf") format("truetype"),
+         url("https://db.onlinewebfonts.com/t/c07d5c6528b6cc0eac08afd7a3199657.svg#TrajanPro-Regular") format("svg");
+}
+
+.header {
+    background-color: #800000; /* Roman Red */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #FFD700; /* Golden */
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Space between eagle and navbar */
+}
+
+.eagle {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.eagle2 {
+    width: 80px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.navList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navList li {
+    margin: 0 10px;
+    background-color: #4B0000; /* Darker Roman Red */
+    padding: 10px;
+    border: 1px solid #FFD700; /* Golden */
+    border-radius: 0; /* Sharp edges */
+}
+
+.navList li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    margin: 20px auto;
+    width: 80%;
+    border: 2px solid #FFD700; /* Golden */
+    border-radius: 10px;
+}
+
+.blogPost {
+    border-top: 0px solid #FFD700; /* Golden */
+    padding-top: 20px;
+}
+
+.h2 {
+    color: #800000; /* Roman Red */
+}
+
+.p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

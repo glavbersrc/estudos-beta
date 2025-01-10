@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/home.module.css';
 
-export default function Home() {
+export default function Biblioteca() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Estudos Constantinianos</title>
+        <title>Biblioteca Estudos Constantinianos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles.css" />
       </Head>
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <nav>
           <ul className={styles.navList}>
-            <li><a href="#">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="#">Roma</a></li>
             <li><a href="#">Catolicismo Romano</a></li>
             <li><a href="#">Editora</a></li>
@@ -31,8 +31,8 @@ export default function Home() {
       </header>
       <main className={styles.main}>
         <section className={styles.blogPost}>
-          <h2>Blog Post Title</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+          <h2>Biblioteca Estudos Constantinianos</h2>
+          <p>Esta é a nossa biblioteca: <a href="https://archive.org/details/@estudos_constantinianos">visite aqui</a></p>
         </section>
       </main>
     </div>

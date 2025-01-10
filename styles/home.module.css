@@ -1,11 +1,93 @@
-.main {
-  padding: 20px 20px 60px;
-  max-width: 680px;
-  margin: 0 auto;
+@import url('./styles.css');
+
+.container {
+  font-family: "TrajanPro-Regular";
+  margin: 0;
+  padding: 0;
+  background-color: #800000; /* Roman Red */
+  color: black;
 }
 
-.hr {
-  border: none;
-  border-bottom: 1px solid #efefef;
-  margin: 3em auto;
+.header {
+  background-color: #800000; /* Roman Red */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #FFD700; /* Golden */
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Space between eagle and navbar */
+}
+
+.eagle {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.eagle2 {
+  width: 80px;
+  height: auto;
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+h1 .text {
+  margin-right: 10px;
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navList li {
+  margin: 0 10px;
+  background-color: #4B0000; /* Darker Roman Red */
+  padding: 10px;
+  border: 1px solid #FFD700; /* Golden */
+  border-radius: 0; /* Sharp edges */
+}
+
+.navList li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  margin: 20px auto;
+  width: 80%;
+  border: 2px solid #FFD700; /* Golden */
+  border-radius: 10px;
+}
+
+.blogPost {
+  border-top: 0px solid #FFD700; /* Golden */
+  padding-top: 20px;
+}
+
+h2 {
+  color: #800000; /* Roman Red */
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
 }
